@@ -10,12 +10,16 @@
     to deal with it yet!
   */
   margin-bottom: 32px;
+  margin-right: 20px;
+  position: relative;
+  z-index: 2;
 }
 
 .title {
   margin: 0;
   /* Optical centering */
   margin-bottom: -4px;
+  padding-bottom: 24px;
 }
 
 .metadata {
@@ -23,4 +27,12 @@
   font-size: 0.875rem;
   font-weight: 400;
   color: hsl(0deg, 0%, 30%);
+}
+
+
+@media (max-width:600px){
+
+  .controlPane{}
+
+
 }

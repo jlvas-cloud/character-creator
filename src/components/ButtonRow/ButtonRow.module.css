@@ -1,2 +1,26 @@
 .buttonRow {
+
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-left: -22px;
+    margin-right: -22px;
+    padding-left: 22px;
+    padding-right: 22px;
+    
+
+    
 }
+
+.buttonRow::-webkit-scrollbar {
+    display: none;
+  }
+
+
+  @media (max-width: 600px){
+    .buttonRow{
+        max-width: 300px;
+        
+    }  
+    
+      
+  }
